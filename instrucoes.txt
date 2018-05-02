@@ -1,0 +1,14 @@
+Boa noite.
+
+Estou encaminhando imagens do projeto de teste. Você deve implementar somente a página Home do projeto.
+
+1) Desenvolver o HTML e CSS da página Home (anexo 1.Arazul_Homepage).
+2) Desenvolver uma formulário em PHP (permitido usar Laravel) para editar o conteúdo da página Home.
+3) Adicionar a lista de imagens em JS (permitido usar AngularJS ou Angular 2+).
+4) (OPCIONAL) Tornar a página Home responsiva (anexo 1_v1-home-responsive).
+
+Deve ser enviado o caminho do repositório com o projeto. Assim como uma breve explicação dos passos utilizados por você para o desenvolvimento.
+
+att. 
+
+Nailton Andrade e Tito Gardel.
