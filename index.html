@@ -108,8 +108,13 @@
                 <img ng-repeat="slide in slides" class="slide slide-animation nonDraggableImage" ng-swipe-right="nextSlide()" ng-swipe-left="prevSlide()"
                     ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.image}}">
 
-                <p ng-repeat="slide in slides" class="textbox  nonDraggableImage" ng-swipe-right="nextSlide()" ng-swipe-left="prevSlide()"
-                    ng-hide="!isCurrentSlideIndex($index)">{{slide.description}}</p>
+                <div ng-repeat="slide in slides" class="textbox  nonDraggableImage" ng-swipe-right="nextSlide()" ng-swipe-left="prevSlide()"
+                    ng-hide="!isCurrentSlideIndex($index)">
+                    <h3 class="textbox-h3">{{slide.header}}</h3>
+                    <h4 class="textbox-h4">{{slide.subheader}}</h4>
+                    <p class='textbox-p'>{{slide.description}}</p>
+                    <a class="textbox-a menu-button" href="{{slide.link}}">LEIA MAIS</a>
+                </div>
 
                 <a class="arrow prev" href="#" ng-click="nextSlide($event)"></a>
                 <a class="arrow next" href="#" ng-click="prevSlide($event)"></a>

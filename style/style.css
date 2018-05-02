@@ -168,7 +168,7 @@ footer a{
 
 .slider {
     /* width: 800px; */
-    height: 400px;
+    height: 500px;
     overflow: hidden;
     position: relative;
     background: #e6e6e6;
@@ -186,11 +186,34 @@ footer a{
     position: absolute;
     top: 10%;
     right: 100px;
-    width: 200px;
+    width: 300px;
     height: 80%;
     background-color: #00487c;
     color:white;
-    padding: 10px;
+    padding: 20px;
+}
+
+.textbox-h3{
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.textbox-h4{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.textbox-p{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.textbox-a{
+    color: white;
+    float: right;
+    clear: both;
+    padding: 10px 30px;
+    margin-top: 10px;
 }
 
 .arrow {
